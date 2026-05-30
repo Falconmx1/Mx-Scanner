@@ -38,3 +38,22 @@ cd Mx-Scanner
 bash install.sh
 ./mx-scanner.sh
 
+📖 Ejemplos de uso rápido
+
+Stealth Mode:
+# Desde el menú, opción 7
+> 7
+IP objetivo: 192.168.1.1
+# Ejecuta escaneo lento y fragmentado
+
+Modo Scriptable:
+# Opción 8 -> genera plantilla scan_config.json
+# Edita el JSON con tus objetivos
+nano scan_config.json
+# Vuelve a ejecutar opción 8
+
+Batch Mode:
+# Crea archivo con IPs
+echo "192.168.1.1" > objetivos.txt
+echo "192.168.1.100" >> objetivos.txt
+# Opción 9, proporciona el archivo
