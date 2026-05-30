@@ -17,3 +17,24 @@
 | Linux      | bash, nmap, curl |
 | Termux     | bash, nmap, termux-api (opcional) |
 | Windows    | Git Bash, nmap para Windows, WinPcap/Npcap |
+
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux%20%7C%20Windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+## 🚀 Instalación rápida
+
+### Termux/Linux
+```bash
+git clone https://github.com/Falconmx1/Mx-Scanner.git
+cd Mx-Scanner
+chmod +x install.sh
+./install.sh
+mx-scanner
+
+Windows (Git Bash)
+git clone https://github.com/Falconmx1/Mx-Scanner.git
+cd Mx-Scanner
+bash install.sh
+./mx-scanner.sh
+
